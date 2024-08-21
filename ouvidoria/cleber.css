@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-image: image-set("carro.png");    
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+form{
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.524);
+    width: 800px;
+    border-radius: 7px;
+}
+
+label {
+    padding-top: 5px;
+    margin-left: 10px;
+}

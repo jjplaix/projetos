@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario LinkedIn</title>
+    <link rel="shortcut icon" href="in.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    
+   <div class="titulo">
+  <img src="linkedin.png" alt="">  <h1>Bem-vindo Faça seu cadastro</h1>  
+   
+</div>
+    <div class="formulario">
+    <form method="POST" action="form.php">
+        <label for="email">Digite seu E-Mail</label> <input type="email" name="email" required> <br>
+        <label for="nome">nome</label><input type="text" name="nome" required> <br>
+        <label for="endereço">endereço</label> <br>
+        <label for="cep">cep</label> <input type="text" name="CEP" required> <br>
+        <label for="numerocasa">numero da casa</label><input type="text" name="numerocasa" required> 
+        <label for="complemento">complemento</label> <input type="text" name="complemento" required> <br>
+        <label for="bairro">bairro</label> <input type="text" name="bairro" required> <br>
+        <label for="cidade">cidade</label><input type="text" name="cidade" required>
+        <br> <label for="estado">estado</label> <input type="text" name="estado" required>
+        <br> <label for="telefone">telefone</label> <input type="number" name="telefone" required>
+        <br> <label for="nascimento">nascimento</label> <input type="date" name="nascimento" id="">  
+        <br> <label for="cpf/cnpj"></label> <input type="number" name="cpf/cnpj" id="">
+        <br> <label for="rg">rg</label> <input type="number" name="RG" id="">
+        <br> <label for="nome do pai">nome do pai</label> <input type="text" name="nome do pai" id="">
+        <br> <label for="nome da mae">nome da mãe</label> <input type="text" name="nome da mae " id="">
+        <br>
+        <fieldset>
+        <label for="cor">escholha a cor que se indentifica</label>
+        <input type="checkbox" name="branco" id="">
+        <label for="branco">branco</label>
+        <input type="checkbox" name="negro" id="">
+        <label for="negro">negro</label>
+        <input type="checkbox" name="pardo" id="">
+        <label for="pardo">pardo</label>
+        <input type="checkbox" name="amarelo" id="">
+        <label for="amarelo">amarelo</label>   
+        </fieldset>
+        <label for="pet">fale qual(is) pet(S) voce gosta</label> <br> <input type="text" name="animal" id=""> <br>
+        <label for="arquivo">adicione uma foto</label>
+        <input type="file" name="arquivo" id="">
+        <br> <br>
+       
+    </div> 
+    <div class="rodape">
+            <i class="material-icons" id="strike">copyright</i>
+            <p>LinkedLn - Desde 2002</p>
+            <h6>Todos os direitos reservados</h6>
+        <a href="https://br.linkedin.com/legal/user-agreement?trk=homepage-basic_footer-user-agreement"><h6>Termos de Uso</h6></a>
+        <a href="https://br.linkedin.com/legal/privacy-policy?trk=homepage-basic_footer-privacy-policy"><h6>Política de Privacidade</h6></a>
+    </div>
+</form>
+
+</body>
+</html>
